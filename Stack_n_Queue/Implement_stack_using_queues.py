@@ -1,6 +1,6 @@
 class MyStack:
 
-    def __init__(self):
+    def __init__(self): # initializer or constructor
         self.q = deque()
 
     def push(self, x: int) -> None:
