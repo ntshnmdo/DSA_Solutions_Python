@@ -1,7 +1,7 @@
 class MyStack:
 
     def __init__(self): # initializer or constructor
-        self.q = deque()
+        self.q = deque() # deque(): double ended queue.
 
     def push(self, x: int) -> None:
         self.q.append(x)
