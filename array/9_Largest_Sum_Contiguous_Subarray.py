@@ -1,3 +1,5 @@
+### Also called Kadane's Algorithm
+
 def maxSubArraysum(self, arr, size):
     sum = 0
     max_sum = 0
