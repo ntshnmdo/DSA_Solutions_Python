@@ -1,6 +1,9 @@
 class solution:
     def minJumps(self, arr, n):
 
+        if n<=1:
+            return 0
+        
         if arr[0] == 0:
             return -1
         
